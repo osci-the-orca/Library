@@ -1,0 +1,53 @@
+CLASSES:
+Library
+Book
+Menu
+Program
+
+
+PROGRAM
+AddListOfBooks()
+
+run menu
+
+MENU
+Add books.
+	CreateBook()
+	AddBook()
+
+Show Library.
+	GetList()
+	
+Search Library.
+	SearchLibrary()
+
+
+Create Book()
+
+LIBRARY
+private List<Book> books
+GetList()
+ReadOnly
+
+AddBook()
+AddListOfBooks()
+ShowAllBooks()
+SearchLibrary()
+
+
+
+BOOK
+String Title
+String Author
+String Year
+
+enum Categories
+novel, audiobook, magazine
+
+
+
+
+
+
+
+
